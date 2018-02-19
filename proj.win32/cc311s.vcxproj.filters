@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelHelper2-API">
+      <UniqueIdentifier>{d5917240-cc3f-4ba9-bade-dbcea5fbd7e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHAnimation.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHAnimationProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHAsset.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHb2BuoyancyController.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBackUINode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBezier.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBodyShape.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBone.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBoneFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBoneNodes.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBox2dCollisionHandling.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHBox2dDebugDrawNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHCamera.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHCameraActivateProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHChildrenOpacitiesProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHChildrenPositionsProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHChildrenRotationsProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHChildrenScalesProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHChildrenSpriteFramesProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHContactInfo.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHDevice.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHDictionary.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHDistanceJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHDrawNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHGameWorldNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHGearJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHGravityArea.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHJointsProtocol.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHNodeAnimationProtocol.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHNodeProtocol.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHOpacityFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHOpacityProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHParallax.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHParallaxLayer.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHPhysicsProtocol.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHPositionFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHPositionProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHPrismaticJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHPulleyJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHRevoluteJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHRootBoneProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHRopeJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHRotationFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHRotationProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHScaleFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHScaleProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHScene.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHShape.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHSprite.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHSpriteFrame.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHSpriteFrameProperty.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHUINode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHUserProperties.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHUtils.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHWater.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHWeldJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\LHWheelJointNode.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LevelHelper2-API\NodeTransform.cpp">
+      <Filter>LevelHelper2-API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BlueRobotSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CameraPhysicsTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DynamicObjectsTransformAnimationTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneAssetDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneAssetWithJointsDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneBeziersDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneCameraDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneCameraFollowDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneCharacterAnimationDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneCollisionHandlingDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneComplexPhysicsDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneGearJointDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneGravityAreasDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneIntroductionDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneJointWithCameraBUGFix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneNodesSubclassingDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneOnTheFlySpritesWithPhysicsDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneParallaxDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHScenePhysicsTransformationsDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHScenePulleyJointDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneRemoveOnCollisionDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneRopeJointDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneShapesDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneSkeletalCharacterDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneUserPropertiesDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneWaterAreaDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LHSceneWeldJointsDemo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyCustomNode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\b2Controller.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LevelHelper2API.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHAnimation.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHAnimationProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHArray.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHAsset.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHb2BuoyancyController.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBackUINode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBezier.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBodyShape.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBone.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBoneFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBoneNodes.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBox2dCollisionHandling.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHBox2dDebugDrawNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHCamera.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHCameraActivateProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHChildrenOpacitiesProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHChildrenPositionsProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHChildrenRotationsProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHChildrenScalesProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHChildrenSpriteFramesProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHConfig.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHContactInfo.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHDevice.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHDictionary.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHDistanceJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHDrawNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHGameWorldNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHGearJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHGravityArea.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHJointsProtocol.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHNodeAnimationProtocol.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHNodeProtocol.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHOpacityFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHOpacityProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHParallax.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHParallaxLayer.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHPhysicsProtocol.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHPositionFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHPositionProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHPrismaticJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHPulleyJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHRevoluteJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHRootBoneProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHRopeJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHRotationFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHRotationProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHScaleFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHScaleProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHScene.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHShape.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHSprite.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHSpriteFrame.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHSpriteFrameProperty.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHUINode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHUserProperties.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHUserPropertyProtocol.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHUtils.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHValue.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHWater.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHWeldJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\LHWheelJointNode.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LevelHelper2-API\NodeTransform.h">
+      <Filter>LevelHelper2-API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BlueRobotSprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CameraPhysicsTest.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DynamicObjectsTransformAnimationTest.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneAssetDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneAssetWithJointsDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneBeziersDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneCameraDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneCameraFollowDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneCharacterAnimationDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneCollisionHandlingDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneComplexPhysicsDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneGearJointDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneGravityAreasDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneIntroductionDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneJointWithCameraBUGFix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneNodesSubclassingDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneOnTheFlySpritesWithPhysicsDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneParallaxDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHScenePhysicsTransformationsDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHScenePulleyJointDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneRemoveOnCollisionDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneRopeJointDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneShapesDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneSkeletalCharacterDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneUserPropertiesDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneWaterAreaDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LHSceneWeldJointsDemo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyCustomNode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
