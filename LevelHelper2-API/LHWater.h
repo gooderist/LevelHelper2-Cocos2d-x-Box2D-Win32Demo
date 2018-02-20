@@ -9,7 +9,7 @@
 #ifndef __LEVELHELPER_API_WATER_H__
 #define __LEVELHELPER_API_WATER_H__
 
-#include "LHConfig.h" // WILLHACK added for BOX2D define
+
 #include "cocos2d.h"
 #include "LHNodeProtocol.h"
 #include "LHNodeAnimationProtocol.h"

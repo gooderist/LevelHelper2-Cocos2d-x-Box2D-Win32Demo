@@ -9,11 +9,10 @@
 #ifndef __LEVELHELPER_API_PHYSICS_BODY_SHAPE_H__
 #define __LEVELHELPER_API_PHYSICS_BODY_SHAPE_H__
 
-#include "LHConfig.h" // WILLHACK moved before #if LH_USE_BOX2D (#defined inside)
-
 #if LH_USE_BOX2D
 
 #include "cocos2d.h"
+#include "LHConfig.h"
 
 class b2Fixture;
 class b2Body;

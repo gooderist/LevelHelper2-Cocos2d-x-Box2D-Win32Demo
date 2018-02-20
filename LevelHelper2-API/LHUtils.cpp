@@ -9,8 +9,7 @@
 #include "LHUtils.h"
 #include "LHValue.h"
 
-/* WILLHACK THIS NEEDS TO BE DELETED */
-/*
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
 //we implement this function because its missing in Windows Phone 8 c++ lib.
 float fmin(float x, float y){
     return x > y ? y : x;
@@ -19,7 +18,8 @@ float fmin(float x, float y){
 //we implement this function because its missing in Windows Phone 8 c++ lib.
 float fmax(float x, float y){
     return x > y ? x: y;
-}*/
+}
+#endif
 
 std::string LHUtils::getLastPathComponent(const std::string& path)
 {

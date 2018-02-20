@@ -11,10 +11,6 @@
 /*
  To enable Box2d usage define LH_USE_BOX2D=1 as a preprocessor macro.
  */
- // WILLHACK enable box2d
-#ifndef LH_USE_BOX2D
-#define LH_USE_BOX2D 1
-#endif
 
 // To enable debug mode set LH_DEBUG to 1 or define a LH_DEBUG as a preprocessor macro.
 #ifndef LH_DEBUG

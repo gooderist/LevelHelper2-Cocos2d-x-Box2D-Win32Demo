@@ -202,8 +202,8 @@ PhysicsJoint* LHJointsProtocol::getJoint(){
 
 void LHJointsProtocol::removeJoint()
 {
-    if(_joint){ // WILLHACK bad mem access in CC3.11+
-        // _joint->removeFormWorld();
+    if(_joint){
+        _joint->removeFormWorld();
         _joint = nullptr;
     }
 }

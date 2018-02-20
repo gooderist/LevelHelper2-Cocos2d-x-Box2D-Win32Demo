@@ -117,10 +117,8 @@ void LHRopeJointNode::shouldRemoveJoint()
         cutJointAB = nullptr;
     }
 #else
-    if (cutJointA) // WILLHACK bad mem access CC3.11+
-        cutJointA->removeFormWorld();
-    if (cutJointB)
-        cutJointB->removeFormWorld();
+    cutJointA->removeFormWorld();
+    cutJointB->removeFormWorld();
     cutJointA = nullptr;
     cutJointB = nullptr;    
 #endif
